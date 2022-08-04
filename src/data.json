@@ -1,9 +1,9 @@
-const DATA = [
+[
     {   
-        id: 1,
-        category:"Kenyan",
-        country: 'Kenya',
-        faq:'Kenya is a country in East Africa with coastline on the Indian Ocean. It encompasses savannah, lakelands, the dramatic Great Rift Valley and mountain highlands. It also home to wildlife like lions, elephants and rhinos. From Nairobi, the capital, safaris visit the Maasai Mara Reserve, known for its annual wildebeest migrations, and Amboseli National Park, offering views of Tanzania 5,895m Mt. Kilimanjaro.'
+        "id": 1,
+        "category":"Kenyan",
+        "country": 'Kenya',
+        "faq":'Kenya is a country in East Africa with coastline on the Indian Ocean. It encompasses savannah, lakelands, the dramatic Great Rift Valley and mountain highlands. It also home to wildlife like lions, elephants and rhinos. From Nairobi, the capital, safaris visit the Maasai Mara Reserve, known for its annual wildebeest migrations, and Amboseli National Park, offering views of Tanzania 5,895m Mt. Kilimanjaro.'
     },
     {   
         id: 2,
@@ -28,4 +28,3 @@ const DATA = [
     }
 ]
 
-export default DATA;
