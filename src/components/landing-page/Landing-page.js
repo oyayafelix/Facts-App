@@ -9,6 +9,7 @@ function LandingPage() {
       <div className="about-us">
         <h1>About Us</h1>
         <h2>Investment Facts</h2>
+        
         <p>import Demo from './components/demo/Demo';
 
           Get facts and information from credible sources to assist you with
