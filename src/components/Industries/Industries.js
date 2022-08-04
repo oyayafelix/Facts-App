@@ -15,7 +15,7 @@ function Industries(){
             // console.log(data[0].name)
         })
     },[]);
-    
+      
     const renderIndustries = industries.map((industry) => {
         return(
             <div  key={industry.id}>
