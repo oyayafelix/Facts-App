@@ -1,5 +1,5 @@
 import "./App.css";
-import Demo from "./components/demo/Demo";
+// import Demo from "./components/demo/Demo";
 import LandingPage from "./components/landing-page/Landing-page";
 import About from "./components/about/About";
 import Industries from "./components/Industries/Industries";
@@ -15,8 +15,6 @@ function App() {
           <Route path='/about' element={<About />} />
           <Route path="/industries" element={<Industries/>}/>
         </Routes>
-        
-        <Demo />
       </div>
   );
 }
