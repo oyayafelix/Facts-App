@@ -11,7 +11,7 @@ function Demo(){
     const [data, setData] = useState(DATA);
     const [countries, setCounries] =useState([]);
     const [countries, setCounries] =useState("");
-    
+
     const getAllCountries = async () => {
         try {
           const res = await fetch(`${apiUrl}/all`);
@@ -31,7 +31,7 @@ function Demo(){
             return curData.category === countryItem;
 
         });
-        setData(result);
+        setData(result); 
     }
 
     return (
