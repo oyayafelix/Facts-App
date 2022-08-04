@@ -1,37 +1,23 @@
-import './App.css';
-import Demo from './components/demo/Demo';
+import "./App.css";
+import Demo from "./components/demo/Demo";
+import LandingPage from "./components/landing-page/Landing-page";
+import About from "./components/about/About";
+import Industries from "./components/Industries/Industries";
+import { Route, Routes} from "react-router-dom";
+import Navbar from "./components/navbar/Navbar";
 
 function App() {
-
-
   return (
-    <div className="App">
-      <nav className='Navbar'>
-        <div>
-          <a href='*' className='logo'>
-            <span className='logo-part-one'>
-              INvest
-            </span>
-            <span className='logo-part-two'>
-              Facts
-            </span>
-          </a>
-        </div>
-        <div className='menu'>
-          <ul>
-            <li>Home</li>
-            <li>About</li>
-            <li>Industries</li>
-            <li>
-              <button>Subscribe</button>
-            </li>
-          </ul>
-        </div>
-      </nav>
-      
-      <Demo
-      />
-    </div>
+      <div className="App">
+        <Navbar/> 
+        <Routes>
+          <Route path='/' element={<LandingPage />} />
+          <Route path='/about' element={<About />} />
+          <Route path="/industries" element={<Industries/>}/>
+        </Routes>
+        
+        <Demo />
+      </div>
   );
 }
 

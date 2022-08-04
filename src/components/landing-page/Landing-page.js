@@ -1,4 +1,4 @@
-import image1 from './img/image1.jpg';
+import image1 from '../../img/image1.jpg';
 
 function LandingPage() {
   return (
@@ -9,7 +9,8 @@ function LandingPage() {
       <div className="about-us">
         <h1>About Us</h1>
         <h2>Investment Facts</h2>
-        <p>
+        <p>import Demo from './components/demo/Demo';
+
           Get facts and information from credible sources to assist you with
           decision making and investing. Source data from over 1000 sources in
           different industries. This generated data is converted to meaningful
@@ -21,3 +22,5 @@ function LandingPage() {
     </div>
   );
 }
+
+export default LandingPage;
