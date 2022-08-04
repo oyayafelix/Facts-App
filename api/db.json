@@ -1,0 +1,24 @@
+{
+    "industries":[
+        {
+            "id":1,
+            "name": "Tech-entrepreneuership",
+            "rating":"3" 
+        },
+        {
+            "id":2,
+            "name": "entrepreneuership",
+            "rating":"2" 
+        },
+        {
+            "id":3,
+            "name": "Juakali",
+            "rating":"5" 
+        },
+        {
+            "id":4,
+            "name": "Tourism",
+            "rating":"5" 
+        }
+    ]
+}
