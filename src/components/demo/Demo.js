@@ -1,11 +1,30 @@
 import './Demo.css';
 import DATA from '../../data';
 import { useState } from 'react';
+import {apiUrl } from '../api';
+
+//console.log (apiUrl)
 
 
 function Demo(){
 
     const [data, setData] = useState(DATA);
+    const [countries, setCounries] =useState([]);
+    const [countries, setCounries] =useState("");
+    
+    const getAllCountries = async () => {
+        try {
+          const res = await fetch(`${apiUrl}/all`);
+          if (!res.ok) throw new Error("Something went wrong");
+          const data = await res.json();
+    
+          setCountries(data);
+        } catch (error) {
+          setError(error.message);
+        }
+      };
+    
+    
 
     const filterResult = (countryItem) => {
         const result = DATA.filter((curData) =>{
@@ -36,6 +55,7 @@ function Demo(){
                 )
             })}  
         </div>
+
     </div>
     );
 }
