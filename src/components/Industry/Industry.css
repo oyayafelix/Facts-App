@@ -1,0 +1,45 @@
+.industry{
+  max-width: 88%;
+}
+
+.industry h6{
+  font-size: 1rem;
+  margin: 0;
+  padding-top: .5rem;
+  text-decoration: underline;
+  text-transform: capitalize;
+
+
+}
+.industry p{
+  margin: 0;
+  padding-top: .4rem;
+  font-size: .9rem;
+}
+.advert{
+  display: none;
+}
+@media only screen and (min-width:1000px){
+  .industry{
+    max-width: 48rem;
+    display: flex;
+  
+  }
+
+  .industry h6{
+    font-size: 1.2rem;
+    margin: 0;
+    padding-top: .5rem;
+    text-decoration: underline;
+    text-transform: capitalize;
+  }
+  .industry p{
+    margin: 0;
+    padding-top: .4rem;
+    font-size: 1.2rem;
+  }
+  .advert{
+    display: block;
+  }
+
+}

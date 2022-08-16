@@ -1,0 +1,14 @@
+.about{
+  max-width: 90%;
+  text-align: center;
+}
+.about h4{
+  margin: 0;
+  padding-top: 1rem;
+  font-size: 1rem;
+}
+.about p{
+  margin: 0;
+  font-size: .9rem;
+  margin: .2rem 0rem;
+}

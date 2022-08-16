@@ -1,0 +1,71 @@
+.industries{
+  margin-left: 1rem;
+}
+.industries h3{
+  font-size: 1.2rem;
+}
+
+.industries input{
+  width: 80%;
+  padding:.3rem;
+  margin-bottom: .5rem;
+  border-radius: 2px;
+  outline: none;
+  border: 1px solid black;
+
+}
+::placeholder{
+  font-size: 1rem;
+}
+.industries textarea{
+  width: 80%;
+  padding:.3rem;
+  margin-top: .5rem;
+  border: 1px solid black;
+  border-radius: 2px;
+}
+.industries button{
+  margin-top: .4rem;
+  padding: .3rem;
+  border: none;
+  background-color: blue;
+  color:  rgb(255,192,203);
+  font-size: 1rem;
+  border-radius: .1rem;
+  font-weight: 700;
+}
+@media only screen  and (min-width:1000px){
+  .industries input{
+    width: 40%;
+    padding:.5rem;
+    border-radius: 2px;
+    outline: none;
+    border: 1px solid black;
+  
+  }
+  .industries textarea{
+    width: 40%;
+    padding:.5rem;
+    border: 1px solid black;
+    border-radius: 2px;
+    height: 5rem;
+  }
+  .industries button{
+    padding: .4rem .8rem;
+    border: none;
+    background-color: blue;
+    color:  rgb(255,192,203);
+    font-size: 1.1rem;
+    border-radius: .1rem;
+    font-weight: 700;
+  }
+  .industry-and-advert{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 1.5rem;
+  }
+  .advert{
+    width: 40rem;
+  }
+
+}

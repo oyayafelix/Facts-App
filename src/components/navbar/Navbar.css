@@ -1,0 +1,48 @@
+.Navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(33,37,41);
+}
+.logo{
+    font-size: 1.2rem;
+    text-decoration: none;
+    white-space: nowrap;
+}
+.logo-part-one{
+  color:#DC3545 
+}
+.logo-part-two{
+  color: white;
+}
+.menu ul{
+  display: flex;
+  align-items: center;
+}
+.menu li{
+  display: block;
+  text-decoration: none;
+}
+.menu li a{
+  text-decoration: none;
+  font-size: 1rem;
+  color:  rgb(255,192,203);
+  font-family:'public sans';
+  font-weight: 700;
+  margin-right: 1rem;
+
+}
+
+@media only screen and (min-width:1000px){
+  .Navbar{
+    padding: 1rem 1.4rem;
+  }
+  .logo{
+    font-size: 1.4rem;
+  }
+  .menu li a{
+    font-size: 1.2rem;
+    margin-right: 1rem;
+  
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "inds": [
+    {
+      "id": 1,
+      "name": "Juakali",
+      "description": "Juakali Workforce creates job opportunities by connecting clients with skilled workers from the informal sector.They are widely spread in Kibra"
+    },
+    {
+      "id": 2,
+      "name": "entrepreneuership",
+      "description": "Kibera is a very efficient economy, focused on providing products and services to lower income people. People are always innovating new ways to get capital and earn daily living."
+    },
+    {
+      "id": 3,
+      "name": "Boda",
+      "description": "Bodaboda operators(Motorcycle taxi) who are destined to change their lives through coming together and addressing different problems affecting their en-devours. This industry is dorminated by the youths mostly but few elderly people mostly men and few women."
+    },
+    {
+      "name": "Banking",
+      "description": "Financial services",
+      "id": 4
+    }
+  ]
+}
